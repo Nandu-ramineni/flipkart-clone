@@ -1,5 +1,5 @@
 import axios from 'axios';
-const URL = '';
+const URL = 'https://flipkart-clone-s4zl.onrender.com';
 export const authenticateSignup = async(data) => {
     try {
         return await axios.post(`${URL}/signup`,data)

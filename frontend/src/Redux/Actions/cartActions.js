@@ -1,7 +1,7 @@
 
 import axios from "axios";
 import * as actionTypes from "../Constants/cartConstant.js";
-const URL = "";
+const URL = "https://flipkart-clone-s4zl.onrender.com";
 export const addToCart =(id,quantity)=>async(dispatch)=>{
     try {
         const {data} = await axios.get(`${URL}/product/${id}`);
