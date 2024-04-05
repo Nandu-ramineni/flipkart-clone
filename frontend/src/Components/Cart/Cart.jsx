@@ -24,7 +24,7 @@ const Cart = () => {
         })
         let options = {
             "key": "rzp_test_kzINWtT3ElrntA", 
-            "amount":'50000', // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+            "amount":'5000', // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
             "currency": "INR",
             "name": "Flipkart", //your business name
             "description": "Test Transaction",
